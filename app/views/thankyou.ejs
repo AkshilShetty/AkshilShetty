@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+<body id ="body3">
+    <!-- Load the static image file  -->
+    
+    <h2> </h2>
+
+    <form method="POST" action="/comment">
+        <table>
+            <h1>Your comments are</h1>
+        <% comments.forEach(function(comment){ %>
+
+            <tr>
+                <td>
+                    <div>
+    
+                        <input type="text" name="firstname" value="<%= comment.courseCode %>" />
+                    </div>
+    
+                </td>
+                <td>
+                    <div>
+                        <input type="text" name="lastname" value="<%= comment.courseName %>" />
+                    </div>
+    
+                </td>
+               
+                <td>
+                    <div>
+                        <input type="text" name="username" value="<%= comment.comment %>" />
+                    </div>
+                </td>
+                
+    
+            <% })%>
+    
+        </table>
+        <a href="/">Logout</a>
+</form>            
+    </body>
+    </html>

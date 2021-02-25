@@ -1,0 +1,159 @@
+body {
+    width: 100%;
+    align-items : center;
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    
+    
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+
+    /* Background image doesn't tile */
+    
+
+    /* Background image is fixed in the viewport so that it doesn't move when 
+    the content's height is greater than the image's height */
+    background-attachment: fixed;
+
+    /* This is what makes the background image rescale based
+    on the container's size */
+    background-size: cover;
+
+    /* Set a background color that will be displayed
+    while the background image is loading */
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+
+    
+
+    
+    /* Location of the image */
+    background-image:url("../images/background.jpg");
+    background-repeat: no-repeat;
+} 
+a
+{
+
+text-emphasis-color: black;
+}
+tr{
+   vertical-align: middle;
+   
+}
+
+td{
+        
+        border-collapse: separate;
+        border-spacing: 10px;
+        vertical-align: bottom;
+        
+    
+}
+
+th{
+    text-align: center;
+    font-size: large;
+    color:black;
+     
+
+}
+
+tr{
+
+    vertical-align: top;
+    border-collapse: separate;
+    border-spacing: 10px;
+    
+}
+table{
+    padding-top: 10px;
+    padding-left: 500px;
+    padding-bottom:  100px; 
+    padding-right: 500px;
+}
+input{
+    padding-bottom:10px;
+    color: black;
+  
+}
+#f{
+    padding:100px;
+}
+
+
+div{
+    padding-bottom: 10px;
+    bottom: 10px;
+    top:100px ;
+}
+#body2{
+
+background-image: url("../images/background2.jpg");
+width: 100%;
+    align-items : center;
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    
+    
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+
+    /* Background image doesn't tile */
+    
+
+    /* Background image is fixed in the viewport so that it doesn't move when 
+    the content's height is greater than the image's height */
+    background-attachment: fixed;
+
+    /* This is what makes the background image rescale based
+    on the container's size */
+    background-size: cover;
+
+    /* Set a background color that will be displayed
+    while the background image is loading */
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+
+    
+
+    
+
+}
+#body3{
+
+    background-image: url("../images/background3.jpg");
+
+width: 100%;
+    align-items : center;
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    
+    
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+
+    /* Background image doesn't tile */
+    
+
+    /* Background image is fixed in the viewport so that it doesn't move when 
+    the content's height is greater than the image's height */
+    background-attachment: fixed;
+
+    /* This is what makes the background image rescale based
+    on the container's size */
+    background-size: cover;
+
+    /* Set a background color that will be displayed
+    while the background image is loading */
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+
+}
+
+#q{
+    padding-left: 150px;
+
+}
